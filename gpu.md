@@ -23,7 +23,7 @@
 - conda install -c anaconda tensorflow-gpu
 - 주의사항 : 2021년 2월 기준으로 윈도우10 64비트용 최신 GPU 버전은 2.3.0임.
 - 만약 아나콘다 클라우드에서 GPU버전을 업데이트할 경우, 위 명령어는 보다 상위버전으로 설치할 수 있음.
-- 특정 GPU 버전으로 설치하고 싶을 경우 : conda install -c anaconda tensorflow-gpu==2.3.0
+- 특정 GPU 버전으로 설치하고 싶을 경우 : conda install -c anaconda tensorflow-gpu==2.1.0
 2. cuDNN 및 CUDA가 제대로 설치되었는지 확인하기
 - conda list -n tfgpu
 - 위 명령어를 치고, 가장 왼쪽열에서 cudnn과 CUDA 이름 있는지 확인해보기.
